@@ -18,6 +18,7 @@
 		40FE18721C9E992900F92E48 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FE18711C9E992900F92E48 /* csv.swift */; };
 		40FE18771C9E9DCE00F92E48 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40FE18761C9E9DCE00F92E48 /* music.mp3 */; };
 		40FE18791C9EA02D00F92E48 /* pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40FE18781C9EA02D00F92E48 /* pokemon.ttf */; };
+		40FE187B1C9EA80600F92E48 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FE187A1C9EA80600F92E48 /* PokemonDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		40FE18711C9E992900F92E48 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		40FE18761C9E9DCE00F92E48 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		40FE18781C9EA02D00F92E48 /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.ttf; sourceTree = "<group>"; };
+		40FE187A1C9EA80600F92E48 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				40FE18581C9E8A4000F92E48 /* ViewController.swift */,
+				40FE187A1C9EA80600F92E48 /* PokemonDetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				40FE18701C9E92E300F92E48 /* PokeCell.swift in Sources */,
 				40FE18591C9E8A4000F92E48 /* ViewController.swift in Sources */,
 				40FE18571C9E8A4000F92E48 /* AppDelegate.swift in Sources */,
+				40FE187B1C9EA80600F92E48 /* PokemonDetailVC.swift in Sources */,
 				40FE186E1C9E8E5200F92E48 /* Pokemon.swift in Sources */,
 				40FE18721C9E992900F92E48 /* csv.swift in Sources */,
 			);
@@ -318,6 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = pokedex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leoloo.pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -329,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = pokedex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leoloo.pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,6 +360,7 @@
 				40FE18671C9E8A4000F92E48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
